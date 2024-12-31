@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db19cce1-b9cf-42f2-bec8-ea97b153c0a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/LoanBridgeAPI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/config/ApiGatewayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/controller/GatewayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/config/ApiGatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/config/ApiGatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/classes/com/loanmanagement/gateway/config/ApiGatewayConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/classes/com/loanmanagement/gateway/config/ApiGatewayConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/loan-management-api-gateway.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/loan-management-api-gateway.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/target/loan-management-api-gateway.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/target/loan-management-api-gateway.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/controller/LoanEligibilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/controller/LoanEligibilityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/gateway/ApiGatewayConfig.java " beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/classes/com/example/loanmanagement/controller/LoanEligibilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/classes/com/example/loanmanagement/controller/LoanEligibilityController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/app/loan-eligibility/loan-eligibility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/loan-eligibility/loan-eligibility.component.ts" afterDir="false" />

@@ -26,7 +26,7 @@ export class MaxloanComponent {
   errorMessage: string = '';
 
   // API endpoint
-  private apiUrl = 'http://localhost:8080/gateway-api/loans/calculate-max-loan';
+  private apiUrl = 'http://localhost:8080/api/loans/calculate-max-loan';
 
   constructor(private http: HttpClient) {}
 

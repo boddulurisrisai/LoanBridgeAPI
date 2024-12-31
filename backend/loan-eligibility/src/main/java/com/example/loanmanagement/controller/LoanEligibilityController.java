@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/loans")
-@CrossOrigin(origins = "http://localhost:8080") // Replace with API Gateway's URL
+@CrossOrigin(origins = "http://localhost:4200") // Replace with API Gateway's URL
 
 public class LoanEligibilityController {
 
