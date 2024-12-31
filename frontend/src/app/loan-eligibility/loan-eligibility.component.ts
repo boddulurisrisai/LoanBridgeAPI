@@ -38,7 +38,7 @@ export class LoanEligibilityComponent {
 
     // Send POST request to backend
     this.http
-      .post('http://localhost:8080/api/loans/check-customer', this.formData, { responseType: 'text' })
+      .post('http://localhost:8081/api/loans/check-customer', this.formData, { responseType: 'text' })
       .subscribe(
         (response: string) => {
           console.log('Response received:', response);

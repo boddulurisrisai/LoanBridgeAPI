@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db19cce1-b9cf-42f2-bec8-ea97b153c0a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/gateway/ApiGatewayConfig.java " afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/demo/LoanManagementApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/loanmanagement/controller/LoanEligibilityControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/loanmanagement/service/LoanEligibilityServiceTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/loan-management-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/loan-management-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/loan-eligibility/loan-eligibility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/loan-eligibility/loan-eligibility.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/maxloan/maxloan.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/maxloan/maxloan.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +53,18 @@
     "Maven.loan-management [org.apache.maven.plugins:maven-install-plugin:2.5.2:install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/srisaibodduluri/Desktop/Sanav/LoanMetrics/backend/loan-eligibility/src/test/java/com/example/loanmanagement/service",
-    "last_opened_file_path": "/Users/srisaibodduluri/Desktop/Sanav/LoanMetrics/backend",
+    "last_opened_file_path": "/Users/srisaibodduluri/Desktop/Sanav/LoanBridgeAPI/backend",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_NegativeCase">
+  <component name="RunManager" selected="JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_PositiveCase">
     <configuration name="LoanEligibilityControllerTest.testCheckLoanEligibility_CustomerNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan-management" />
       <extension name="coverage">
@@ -103,17 +113,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanEligibilityServiceTest.testCheckLoanEligibility_NegativeCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanEligibilityControllerTest.testCheckLoanEligibility_PositiveCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan-management" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.loanmanagement.service.*" />
+          <option name="PATTERN" value="com.example.loanmanagement.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.loanmanagement.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.loanmanagement.service.LoanEligibilityServiceTest" />
-      <option name="METHOD_NAME" value="testCheckLoanEligibility_NegativeCase" />
+      <option name="PACKAGE_NAME" value="com.example.loanmanagement.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.loanmanagement.controller.LoanEligibilityControllerTest" />
+      <option name="METHOD_NAME" value="testCheckLoanEligibility_PositiveCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_NegativeCase" />
         <item itemvalue="JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_PositiveCase" />
         <item itemvalue="JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_ExceptionCase" />
         <item itemvalue="JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_CustomerNotFound" />
         <item itemvalue="JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_NegativeCase" />
+        <item itemvalue="JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_PositiveCase" />
       </list>
     </recent_temporary>
   </component>
@@ -166,25 +176,5 @@
       <updated>1734118237635</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/loanmanagement/controller/LoanEligibilityControllerTest.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/loanmanagement/controller/LoanEligibilityControllerTest.java</url>
-          <line>96</line>
-          <properties class="com.example.loanmanagement.controller.LoanEligibilityControllerTest" method="testCheckLoanEligibility_ExceptionCase">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
