@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db19cce1-b9cf-42f2-bec8-ea97b153c0a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/gateway/ApiGatewayConfig.java " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/LoanBridgeAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/config/ApiGatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/loanmanagement/gateway/controller/GatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/controller/LoanEligibilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/controller/LoanEligibilityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/java/com/example/loanmanagement/gateway/ApiGatewayConfig.java " beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/demo/LoanManagementApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/loanmanagement/controller/LoanEligibilityControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/src/test/java/com/example/loanmanagement/service/LoanEligibilityServiceTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan-eligibility/target/classes/com/example/loanmanagement/controller/LoanEligibilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/classes/com/example/loanmanagement/controller/LoanEligibilityController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/loan-eligibility/target/spring-boot-aws.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/app/loan-eligibility/loan-eligibility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/loan-eligibility/loan-eligibility.component.ts" afterDir="false" />
@@ -40,30 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.LoanEligibilityControllerTest.executor": "Run",
-    "JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_CustomerNotFound.executor": "Run",
-    "JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_ExceptionCase.executor": "Run",
-    "JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_NegativeCase.executor": "Run",
-    "JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_PositiveCase.executor": "Run",
-    "JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_NegativeCase.executor": "Run",
-    "JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_PositiveCase.executor": "Run",
-    "Maven.loan-management [org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file].executor": "Run",
-    "Maven.loan-management [org.apache.maven.plugins:maven-install-plugin:2.5.2:install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/srisaibodduluri/Desktop/Sanav/LoanMetrics/backend/loan-eligibility/src/test/java/com/example/loanmanagement/service",
-    "last_opened_file_path": "/Users/srisaibodduluri/Desktop/Sanav/LoanBridgeAPI/backend",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.LoanEligibilityControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_CustomerNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_ExceptionCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_NegativeCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoanEligibilityControllerTest.testCheckLoanEligibility_PositiveCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_NegativeCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_PositiveCase.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.loan-management [org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.loan-management [org.apache.maven.plugins:maven-install-plugin:2.5.2:install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/srisaibodduluri/Desktop/Sanav/LoanMetrics/backend/loan-eligibility/src/test/java/com/example/loanmanagement/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/srisaibodduluri/Desktop/Sanav/LoanBridgeAPI/backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.LoanEligibilityServiceTest.testCheckLoanEligibility_PositiveCase">
     <configuration name="LoanEligibilityControllerTest.testCheckLoanEligibility_CustomerNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="loan-management" />
@@ -144,17 +150,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="backend" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="backend" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
