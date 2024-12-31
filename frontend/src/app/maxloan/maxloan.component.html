@@ -1,0 +1,33 @@
+<div class="container">
+    <h2>Max Loan Amount Calculator</h2>
+    <form (ngSubmit)="onCalculateLoan()">
+        <div class="form-group">
+            <label for="totalDebt">Total Debt:</label>
+            <input type="number" id="totalDebt" [(ngModel)]="totalDebt" name="totalDebt" required />
+        </div>
+
+        <div class="form-group">
+            <label for="annualIncome">Annual Income:</label>
+            <input type="number" id="annualIncome" [(ngModel)]="annualIncome" name="annualIncome" required />
+        </div>
+
+        <div class="form-group">
+            <label for="creditScore">Credit Score:</label>
+            <input type="number" id="creditScore" [(ngModel)]="creditScore" name="creditScore" required />
+        </div>
+
+        <button type="submit">Calculate Max Loan Amount</button>
+    </form>
+
+    <div class="result">
+        <h3>Response:</h3>
+        <p>{{ eligibilityResult }}</p>
+
+
+    </div>
+
+    <div *ngIf="errorMessage" class="error">
+        <p>{{ errorMessage }}</p>
+    </div>
+
+</div>

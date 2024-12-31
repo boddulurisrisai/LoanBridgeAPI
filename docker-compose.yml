@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend/loan-eligibility
+    ports:
+      - "8080:8080"
+    container_name: backend-container
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/sakila
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root1234
+    depends_on:
+      - mysql
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "4200:80"
+    container_name: frontend-container
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_DATABASE: sakila
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:

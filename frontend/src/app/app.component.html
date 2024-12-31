@@ -1,0 +1,23 @@
+<header>
+    <nav>
+        <a routerLink="/">Home</a>
+        <a routerLink="/loan-eligibility">Loan Eligibility</a>
+        <a routerLink="/maxloan" routerLinkActive="active">Max Loan</a>
+
+    </nav>
+    <div class="header-icons">
+        <!-- Profile Icon with Dropdown -->
+        <div class="profile-icon" (click)="toggleDropdown()">
+            <!-- Replace the image with FontAwesome icon -->
+            <i class="fas fa-user-circle" style="font-size: 40px; color: white;"></i>
+        </div>
+        <div *ngIf="dropdownVisible" class="dropdown-menu">
+            <a href="#" (click)="viewAccount()">Account Information</a>
+            <a href="#" (click)="logout()">Logout</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <router-outlet></router-outlet>
+</main>

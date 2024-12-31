@@ -1,0 +1,6 @@
+com/example/loanmanagement/entity/LoanRequest.class
+com/example/loanmanagement/controller/LoanEligibilityController.class
+com/example/loanmanagement/repository/CustomerRepository.class
+com/example/loanmanagement/LoanManagementApplication.class
+com/example/loanmanagement/service/LoanEligibilityService.class
+com/example/loanmanagement/entity/Customer.class

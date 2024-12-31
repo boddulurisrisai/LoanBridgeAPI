@@ -1,0 +1,123 @@
+<div class="loan-eligibility-container">
+    <h1>Loan Eligibility Form</h1>
+    <form (ngSubmit)="onSubmit()" #loanForm="ngForm">
+        <!-- First Name -->
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" [(ngModel)]="formData.firstName" required
+                class="form-control" placeholder="Enter first name" />
+            <div *ngIf="loanForm.submitted && !formData.firstName" class="error-message">First name is required.</div>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" [(ngModel)]="formData.lastName" required
+                class="form-control" placeholder="Enter last name" />
+            <div *ngIf="loanForm.submitted && !formData.lastName" class="error-message">Last name is required.</div>
+        </div>
+
+        <!-- Age -->
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" [(ngModel)]="formData.age" required class="form-control"
+                placeholder="Enter age" />
+            <div *ngIf="loanForm.submitted && !formData.age" class="error-message">Age is required.</div>
+        </div>
+
+        <!-- Annual Income -->
+        <div class="form-group">
+            <label for="annualIncome">Annual Income</label>
+            <small class="form-text text-muted">* Should be positive</small>
+            <input type="number" id="annualIncome" name="annualIncome" [(ngModel)]="formData.annualIncome" required
+                class="form-control" placeholder="Enter annual income" />
+            <div *ngIf="loanForm.submitted && !formData.annualIncome" class="error-message">Annual income is required.
+            </div>
+        </div>
+
+        <!-- Credit Score -->
+        <div class="form-group">
+            <label for="creditScore">Credit Score</label>
+            <small class="form-text text-muted">* Credit score should be between 300 and 850.</small>
+            <input type="number" id="creditScore" name="creditScore" [(ngModel)]="formData.creditScore" required
+                class="form-control" placeholder="Enter credit score" />
+            <div *ngIf="loanForm.submitted && !formData.creditScore" class="error-message">Credit score is required.
+            </div>
+        </div>
+
+        <!-- Existing Debts
+        <div class="form-group">
+            <label for="existingDebts">Existing Debts</label>
+            <input type="number" id="existingDebts" name="existingDebts" [(ngModel)]="formData.existingDebts" required
+                class="form-control" placeholder="Enter existing debts" />
+            <div *ngIf="loanForm.submitted && !formData.existingDebts" class="error-message">Existing debts are
+                required.</div>
+        </div> -->
+
+        <!-- Existing Loans -->
+        <div class="form-group">
+            <label for="existingLoans">Existing Loans</label>
+            <input type="number" id="existingLoans" name="existingLoans" [(ngModel)]="formData.existingLoans" required
+                class="form-control" placeholder="Enter existing loans" />
+            <div *ngIf="loanForm.submitted && !formData.existingLoans" class="error-message">Existing loans are
+                required.</div>
+        </div>
+
+        <!-- Total Debt -->
+        <div class="form-group">
+            <label for="totalDebt">Total Debt</label>
+            <small class="form-text text-muted">* Should be positive</small>
+            <input type="number" id="totalDebt" name="totalDebt" [(ngModel)]="formData.totalDebt" required
+                class="form-control" placeholder="Enter total debt" />
+            <div *ngIf="loanForm.submitted && !formData.totalDebt" class="error-message">Total debt is required.</div>
+        </div>
+
+        <!-- Create Date -->
+        <div class="form-group">
+            <label for="createDate">Account Creation Date</label>
+            <input type="date" id="createDate" name="createDate" [(ngModel)]="formData.createDate" required
+                class="form-control" />
+            <div *ngIf="loanForm.submitted && !formData.createDate" class="error-message">Creation date is required.
+            </div>
+        </div>
+
+        <!-- Employment Status -->
+        <div class="form-group">
+            <label>Employment Status</label>
+            <div>
+                <label>
+                    <input type="radio" name="employmentStatus" value="Employed" [(ngModel)]="formData.employmentStatus"
+                        required /> Employed
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="employmentStatus" value="Self-Employed"
+                        [(ngModel)]="formData.employmentStatus" required /> Self-Employed
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="employmentStatus" value="Unemployed"
+                        [(ngModel)]="formData.employmentStatus" required /> Unemployed
+                </label>
+            </div>
+            <div *ngIf="loanForm.submitted && !formData.employmentStatus" class="error-message">
+                Employment status is required.
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" [disabled]="!loanForm.form.valid" class="btn btn-primary">Submit</button>
+    </form>
+
+    <!-- Eligibility Result -->
+    <!-- <div *ngIf="eligibilityResult" class="result">
+        <h3>Your Eligibility Result:</h3>
+        <p>{{ eligibilityResult }}</p>
+    </div> -->
+    <div *ngIf="eligibilityResult" class="result">
+        <h3>Your Eligibility Result:</h3>
+        <p *ngFor="let part of splitEligibilityResult">- {{ part }}</p>
+    </div>
+</div>

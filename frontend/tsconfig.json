@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",                    // The output directory for transpiled files
+    "strict": true,                                 // Enables strict type checking across your project
+    "noImplicitOverride": true,                     // Ensure explicit overrides in derived classes
+    "noPropertyAccessFromIndexSignature": true,     // Disallows property access via index signature
+    "noImplicitReturns": true,                      // Ensures that functions return a value or explicitly return `void`
+    "noFallthroughCasesInSwitch": true,             // Prevents fallthrough in `switch` statements
+    "skipLibCheck": true,                           // Skips type checking of declaration files
+    "isolatedModules": true,                        // Ensures that each file can be safely transpiled independently
+    "esModuleInterop": true,                        // Ensures compatibility between CommonJS and ESModules
+    "experimentalDecorators": true,                 // Enables experimental support for decorators
+    "moduleResolution": "node",                     // Use Node.js module resolution strategy (recommended for Angular)
+    "importHelpers": true,                          // Reduces code duplication when using helpers like `__extends`
+    "target": "ES2022",                             // Targeting ECMAScript 2022 for modern JavaScript features
+    "module": "ES2022"                              // Set module system to ES2022 to align with target
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,       // Disables legacy format for i18n message IDs
+    "strictInjectionParameters": true,              // Strict checking for injection parameters
+    "strictInputAccessModifiers": true,             // Ensures strict access modifiers for inputs
+    "strictTemplates": true                         // Enforces strict checking on templates for safety
+  },
+  "include": [
+    "src/**/*.ts"  // Ensure all TypeScript files under 'src' are included
+  ],
+  "exclude": [
+    "node_modules", // Exclude the node_modules directory
+    "dist"           // Exclude the dist directory from TypeScript compilation
+  ]
+}
